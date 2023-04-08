@@ -11,16 +11,20 @@
                 class="hero-info__description"
                 :style="{color: colorDescription}">{{description}}</span>
         </div>
-        <a 
+        <ui-button>
+            View collection
+        </ui-button>
+<!--         <a 
             href="#" 
             class="hero-info-link"
-            :style="{color: colorLink}">View collection</a>
+            :style="{color: colorLink}">View collection</a> -->
     </div>
     
 </template>
 
 
 <script setup>
+import uiButton from '@/components/UI/Button.vue';
 
 const props = defineProps ({
     title: {
@@ -76,20 +80,6 @@ const props = defineProps ({
         &__description {
             color: #5b5676;
             font-size: 18px;
-        }
-        &-link {
-            color: #2A254B;
-            text-decoration: none;
-            width: 170px;
-            height: 56px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: rgba(249, 249, 249, 0.15);
-            cursor: pointer;
-                &:hover {
-                background: rgba(249, 249, 249, 0.30);
-            }
         }
     }
 }

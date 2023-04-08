@@ -8,14 +8,14 @@
       :title="product.title"
       :price="product.price"/>
    </div>
-   <a href="#" class="products-link">View collection</a>
+   <router-link to="/" class="products-link">View collection</router-link>
   </div>
    
 </template>
 
 <script setup>
 import { ref } from 'vue'
-import Product from '../components/Product.vue';
+import Product from '@/components/Product.vue';
 
 const products = ref([
   {

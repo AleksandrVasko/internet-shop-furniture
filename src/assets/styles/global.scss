@@ -1,0 +1,29 @@
+@import './fonts.scss';
+
+:root {
+  --satoshi: 'Satoshi', sans-serif;
+  --clash: 'Clash-Display', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: var(--satoshi);
+  color: #22202e;
+
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}

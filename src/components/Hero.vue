@@ -3,13 +3,13 @@
         <HeroInformation 
         title="Luxury homeware for people who love timeless design quality"
         description="With our new collection, view over 400 bespoke pieces from homeware through to furniture today"
-        link="#" View collection/>        
+        link="#"/>        
     </div>
 </template>
 
 
 <script setup>
-import HeroInformation from './HeroInformation.vue';
+import HeroInformation from '@/components/HeroInformation.vue';
 </script>
 
 
